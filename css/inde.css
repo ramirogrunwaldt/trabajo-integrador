@@ -1,0 +1,194 @@
+/*  */html{
+    scroll-behavior: smooth !important;
+}
+
+body{
+    margin:0 !important;
+    padding: 0 !important;
+    background-color: cornsilk !important;
+    
+}
+
+.portada{
+    width: 100% !important;
+    height: 80% !important;
+    background-image: url(https://www.zooplus.es/magazine/wp-content/uploads/2019/07/border-collie-.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada h1 {
+    color: white;
+    z-index: 2;
+    font-size: 5em;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.portada-opacidad{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar{
+    
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 3 !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.logo a{
+    height: 30px;
+    width: 15px;
+    display: flex;
+    text-decoration: none !important;
+}
+
+.lista-navegacion{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: rgb(189, 175, 56) !important;
+}
+
+.lista-navegacion li a{
+    margin: 10px !important;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em !important;
+    list-style: none !important;
+    font-family: 'Noto Serif', serif;
+}
+
+.lista-navegacion li a:hover{
+    color: rgb(231, 8, 8) !important;
+    cursor: pointer !important;
+}
+.listado-enlaces{
+    margin-right: 50px;
+}
+
+
+.section-quienes-somos{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.card-quienes-somos{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornsilk;
+    padding: 2%;
+    
+}
+.titulo-seccion{
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+.parrafo-quienes-somos{
+    font-family: 'Oxygen', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    margin: 20px;
+    
+}
+
+.Imagenes{
+    width: 100%;
+    height: 500px;
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-contacto{
+    width: 40%;
+    border-radius: 20px;
+    margin: 550px;
+}
+
+.card-contacto h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-input{
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-input input{
+    width: 80%;
+}
+
+.container-input textarea{
+    width: 80%;
+}
+
+.container-btn{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icons i {
+    color: white;
+    font-size: 2em;
+    margin: 0px 10px;
+}
+
+.icon-facebook:hover{
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.icon-twitter:hover{
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.icon-instagram:hover{
+    color: #5851db;
+    cursor: pointer;
+}
+
+fas-fa-paw{
+    width: 15px;
+    height: 15px;
+}
